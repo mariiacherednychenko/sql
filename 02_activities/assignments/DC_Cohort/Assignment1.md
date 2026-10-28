@@ -210,4 +210,9 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 ```
 Your thoughts...
+As a US visa applicant, I have seen how a security-focused values system is built into the data systems that decide my application's fate. My application is essentially a database record, and fields like my country of citizenship and my field of study trigger rules that shape the outcome. Because my country is not a part of the visa waiver program, I must pay a fee just for the opportunity to apply, a cost determined by my nationality rather than anything about me as an individual. My STEM degree also matches categories flagged as sensitive, which also triggers additional security screening that has delayed my plans by years. These delays have real consequences, affecting my career opportunities and travel plans.
+A similar values system can be found in credit scoring. When newcomers arrive in a new country, they often have no local credit history, so credit databases treat them as high risk even if they managed their finances responsibly for years elsewhere. The system values a long, local financial record, which means anyone without one is penalized for being absent from the data rather than for anything they did. This affects access to rental apartments, phone plans, and loans, making it harder to build the stable life the system rewards.
+Overall, I believe these systems reflect the priorities of the institutions that build them rather than the people they affect. Being on the receiving end of these decisions has made me more aware that every database field represents some source of systematic prejudice.
+
+
 ```
