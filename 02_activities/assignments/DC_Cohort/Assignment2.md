@@ -58,6 +58,26 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 
 ```
 Your answer...
+Type 1 overwrites the changes without keeping the old one, type 2 keeps the old value and creates a new record for the updated value.
+For type one, the architecture would be:
+customer_id (customer:customer_address = 1:1)
+address_line
+city
+province
+postal code
+country
+
+For type 2
+customer_address_id
+customer_id (customer:customer_address = 1:many)
+address_line
+city
+province
+postal code
+country
+start_date
+end_date
+
 ```
 
 ***
