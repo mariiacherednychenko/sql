@@ -58,6 +58,26 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 
 ```
 Your answer...
+Type 1 overwrites the changes without keeping the old one, type 2 keeps the old value and creates a new record for the updated value.
+For type one, the architecture would be:
+customer_id (customer:customer_address = 1:1)
+address_line
+city
+province
+postal code
+country
+
+For type 2
+customer_address_id
+customer_id (customer:customer_address = 1:many)
+address_line
+city
+province
+postal code
+country
+start_date
+end_date
+
 ```
 
 ***
@@ -193,4 +213,11 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 ```
 Your thoughts...
+One of the main issues that stood out to me personally was the cheap labour used to build image databases. When Dr Li found that paying  students $10 an hour was too slow, she turned to Amazon Mechanical Turk, where thousands of online workers could label images at a fraction of the cost. The author describes these people as clicking buttons for cents. Their work was repetitive and tedious, yet it made a major breakthrough in AI possible.
+
+It is upsetting how invisible this labour became. Li rightly gained recognition for ImageNet, but the many people who labelled its millions of images remain anonymous. They were also treated with suspicion, since control images checked whether they were working honestly.
+
+This labour also raises two types of bias. The first is labelling bias. ImageNet’s categories came from the website that relied on dictionaries and manual classification, so human assumptions were built in at every layer. ImageNet Roulette showed the result, labelling people in inconsistent and sometimes offensive ways. The second is selection bias. ImageNet’s images were gathered through search engines, so the dataset likely reflects what was most visible online rather than the world as a whole. Groups and perspectives that appear less often online may be underrepresented, which could make these systems less accurate for them.
+
+For me, the biggest takeaway is that AI is not as automatic or objective as it appears. Like clothing that we assume is made by machines, it depends on human labour and judgment. As LLMs spread, we should ask who does this work, how they are treated, and whose views these systems reflect.  
 ```
